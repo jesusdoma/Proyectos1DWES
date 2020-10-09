@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+    {
+    "label": "Chrome",
+    "type": "process",
+    "command": "chrome.exe",
+    "windows": {
+    "command": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    "args": ["192.168.250.254/${relativeFile}"],
+    "problemMatcher": []
+    }
+    ]
+    }
+
+
+/*
+// En keybindings.json para asignar teclas a la tareas
+[
+    {
+    "key": "ctrl+g",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Chrome"
+    }
+]
+*/
